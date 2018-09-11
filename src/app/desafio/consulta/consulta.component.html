@@ -1,0 +1,22 @@
+<h3>{{titulo}}</h3>
+ 
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Entrada</th>
+        <th>Saida</th>
+    </tr>
+    </thead>
+ 
+    <tbody>
+        <tr *ngFor="let desafio of desafios; let i = index;">
+            <td>{{ desafio.id }}</td>        
+            <td>{{ desafio.entrada }}</td>        
+            <td>{{ desafio.saida }}</td> 
+        </tr>
+        <tr>
+           <td colspan="6" style="text-align: right;">Total de Registros: {{ desafios.length }}</td> 
+        </tr>
+    </tbody>
+</table>
