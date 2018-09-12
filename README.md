@@ -1,6 +1,6 @@
 # DesafioSoluts
 
-comando necessário: git commit -m "first commit"
+
 APi configurado para rodar em:http://localhost:8080/desafio/ 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
